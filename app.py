@@ -24,7 +24,7 @@ if uploaded_file is not None:
 
     if st.button("Analyze PDF"):
 
-        webhook_url = "https://noofas.app.n8n.cloud/webhook-test/pdf-agents"
+        webhook_url = "https://mohammedshehri.app.n8n.cloud/webhook-test/pdf-agents"
 
         files = {
             "file": (
@@ -92,7 +92,7 @@ question = st.text_input(
 
 if st.button("Ask AI"):
 
-    question_webhook_url = "https://noofas.app.n8n.cloud/webhook/pdf-questions"
+    question_webhook_url = "https://mohammedshehri.app.n8n.cloud/webhook-test/3c43655e-0b82-4c72-8ade-0298db69d42f"
 
     files = {
         "file": (
