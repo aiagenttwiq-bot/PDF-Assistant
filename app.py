@@ -94,7 +94,7 @@ question = st.text_input(
 
 if st.button("Ask AI"):
 
-    question_webhook_url = "PUT_QUESTION_WEBHOOK_URL_HERE"
+    question_webhook_url = "https://mohammedshehri.app.n8n.cloud/webhook-test/3c43655e-0b82-4c72-8ade-0298db69d42f"
 
     files = {
         "file": (
